@@ -2046,12 +2046,19 @@ input, select, textarea {
 		cursor: default;
 		height: 3.5em;
 		line-height: 3.5em;
+		overflow: hidden;
 	}
 
 		#nav ul {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		#nav ul li {
+			flex: 1 0 auto;
 		}
 
 		#nav li {
