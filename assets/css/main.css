@@ -2047,11 +2047,14 @@ input, select, textarea {
 		height: 3.5em;
 		line-height: 3.5em;
 		overflow: auto;
+		display: flex;
+		justify-content: center;
 	}
 
 		#nav ul {
 			margin-bottom: 0;
 			list-style: none;
+			list-style-type: none;
 			padding-left: 0;
 			display: flex;
 			flex-wrap: nowrap;
@@ -2059,6 +2062,7 @@ input, select, textarea {
 
 		#nav ul li {
 			flex: 0 0 auto;
+			display: inline-block;
 		}
 
 		#nav li {
