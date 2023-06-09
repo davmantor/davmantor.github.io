@@ -100,9 +100,9 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #D28B47;
 		font-weight: 300;
-		font-size: 13pt;
+		font-size: 16pt;
 	}
 
 	a {
@@ -124,7 +124,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: #D28B47;
 	}
 
 	i, em {
@@ -150,7 +150,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #D28B47;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -1508,7 +1508,7 @@ input, select, textarea {
 /* Form */
 
 	form label {
-		color: #3e3e3e;
+		color: #D28B47;
 		font-weight: 700;
 		display: block;
 		margin: 0 0 0.5em 0;
@@ -1911,7 +1911,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
+		background: #4CAD9E;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
@@ -1995,16 +1995,16 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #323E5E;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
+			background-color: #323E5E;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
+			background-color: #323E5E;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
@@ -2036,7 +2036,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: #4CAD9E;
 		text-align: center;
 		position: fixed;
 		left: 0;
