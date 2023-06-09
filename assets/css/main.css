@@ -2046,7 +2046,7 @@ input, select, textarea {
 		cursor: default;
 		height: 3.5em;
 		line-height: 3.5em;
-		overflow: hidden;
+		overflow: auto;
 	}
 
 		#nav ul {
@@ -2054,11 +2054,11 @@ input, select, textarea {
 			list-style: none;
 			padding-left: 0;
 			display: flex;
-			flex-wrap: wrap;
+			flex-wrap: nowrap;
 		}
 
 		#nav ul li {
-			flex: 1 0 auto;
+			flex: 0 0 auto;
 		}
 
 		#nav li {
