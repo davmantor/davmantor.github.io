@@ -1,0 +1,9 @@
+/* css styles */
+
+/* Change the background color of the navbar */
+.navbar {
+    background-color: #003D0A !important;
+    padding-top: 0px; /* Reduce the top padding */
+    padding-bottom: 0px; /* Reduce the bottom padding */
+    font-size: 16px;
+}
