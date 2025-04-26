@@ -24,8 +24,8 @@
 /* force long URLs/lines to break */
 .quarto-content li,
 .quarto-content a {
-  overflow-wrap: break-word;
-  word-break: break-word;
+  overflow-wrap: anywhere;
+  word-break: break-all;
 }
 
 @media (max-width: 600px) {
