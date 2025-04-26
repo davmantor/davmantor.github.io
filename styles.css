@@ -16,7 +16,10 @@
 }
 
 /* hide the Jolla “published” meta in the hero */
-.quarto-title-meta {
+.quarto-title-meta-heading {
+  display: none !important;
+}
+.quarto-title-meta-contents {
   display: none !important;
 }
 
