@@ -27,3 +27,10 @@
   overflow-wrap: break-word;
   word-break: break-word;
 }
+
+@media (max-width: 600px) {
+  .quarto-content {
+    max-width: 90vw;         /* force a bit of margin on both sides */
+    margin-inline: auto;
+  }
+}
