@@ -9,8 +9,21 @@
     margin-bottom: 0px;
 }
 
-/* 1. Kill the Jolla hero’s default top padding */
+/* kill the Jolla default top padding */
 .quarto-about-jolla {
   padding-top: 0 !important;
   margin-top: 0 !important;
+}
+
+/* ensure content never hugs the screen edges */
+.quarto-content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* force long URLs/lines to break */
+.quarto-content li,
+.quarto-content a {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
