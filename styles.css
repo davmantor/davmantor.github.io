@@ -15,22 +15,26 @@
   margin-top: 0 !important;
 }
 
+/* hide the Jolla “published” meta in the hero */
+.quarto-title-meta {
+  display: none !important;
+}
+
 /* ensure content never hugs the screen edges */
 .quarto-content {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-/* force long URLs/lines to break */
-.quarto-content li,
+/* break anywhere in links */
 .quarto-content a {
-  overflow-wrap: anywhere;
-  word-break: break-all;
+  word-break: break-all !important;
+  overflow-wrap: anywhere !important;
 }
 
-@media (max-width: 600px) {
-  .quarto-content {
-    max-width: 90vw;         /* force a bit of margin on both sides */
-    margin-inline: auto;
-  }
+/* if URLs land inside <code> tags, let them wrap too */
+.quarto-content code {
+  white-space: normal !important;
+  word-break: break-all !important;
+  overflow-wrap: anywhere !important;
 }

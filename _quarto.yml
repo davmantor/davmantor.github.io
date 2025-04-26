@@ -1,3 +1,6 @@
+date: last-modified
+date-format: "YYYY/MM/DD"
+
 project:
   type: website
   output-dir: docs
@@ -8,7 +11,7 @@ website:
   page-navigation: true
 
   page-footer:
-    left: "Last updated: 2025/04/26"
+    left: 'Last updated: {{< meta date >}}'
     right: "This page is built with❤️ and [Quarto](https://quarto.org/)."
 
   navbar:
