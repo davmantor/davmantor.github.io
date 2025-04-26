@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - CNAME
+
+website:
+  page-navigation: true
+
+  page-footer:
+    left: "Last updated: 2025/04/26"
+    right: "This page is built with❤️ and [Quarto](https://quarto.org/)."
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+      - href: publications/index.qmd
+        text: Publications
+        
+      - href: education_awards/index.qmd
+        text: Education & Awards
+        
+      - href: cv/index.qmd
+        text: CV
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
