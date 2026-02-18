@@ -32,7 +32,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Set last updated date
-        run: echo "SITE_LAST_UPDATED=Last updated: $(git log -1 --date=format:%Y-%m-%d --format=%cd)" >> $GITHUB_ENV
+        run: |
+          echo "SITE_LAST_UPDATED=Last updated: $(git log -1 --date=format:%Y-%m-%d --format=%cd)" >> "$GITHUB_ENV"
 
       - name: Build site
         run: zensical build --clean

@@ -2,7 +2,7 @@
   <img class="hero-image" src="assets/profile.png" alt="Portrait of David Torres-Mendoza">
   <h1 class="hero-name">David M. Torres-Mendoza</h1>
   <div class="hero-copy">
-    <p>I focus on broadening participation in computing, exploring how students from underrepresented backgrounds discover and engage with the field, what supports or blocks their progress, and how to design more inclusive programs and environments. My research interests include computing education pathways, equity and inclusion in computer science, community college to university transfer success, and program design for underserved and underrepresented students.</p>
+    <p>I focus on broadening participation in computing, exploring how students from underrepresented backgrounds discover and engage with the field, what supports or blocks their progress, and how to design more inclusive programs and environments. My research interests include computing education pathways, equity and inclusion in computer science, and program design for underserved and underrepresented students.</p>
     <div class="hero-links">
       <a href="https://www.linkedin.com/in/david-torres-mendoza-02696583" aria-label="LinkedIn" title="LinkedIn">
         <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
