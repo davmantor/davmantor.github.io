@@ -1,6 +1,10 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-
-/.quarto/
+.venv/
+venv/
+site/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+/.idea

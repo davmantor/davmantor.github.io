@@ -1,0 +1,52 @@
+site_name: David Torres-Mendoza
+site_url: https://davidmtorres.com
+site_description: Personal professional website of David Torres-Mendoza
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: teal
+  font:
+    text: Lora
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - Publications: publications.md
+  - Education & Awards: education-awards.md
+  - CV: cv.md
+
+plugins: []
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://www.googletagmanager.com/gtag/js?id=G-QP4YGFSBM4
+  - javascripts/analytics.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/david-torres-mendoza-02696583
+      name: LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/davmantor
+      name: GitHub
+
+copyright: !ENV [SITE_LAST_UPDATED, "Last updated: local build"]
